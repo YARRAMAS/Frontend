@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jala Academy Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Jala Academy</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero-section">
+        <div class="hero-content">
+            <h2>Welcome to Jala Academy</h2>
+            <p>Use the credentials below to log in:</p>
+            <p>Email: training@jalaacademy.com<br>Password: jobprogram</p>
+            <div class="login-container">
+                <input type="text" id="email" placeholder="Enter Email or Mobile" required>
+				
+                <input type="password" id="password" placeholder="Password" required>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="remember-me">
+                    <label for="remember-me">Remember Me</label>
+                </div><br>
+                <button type="button" onclick="validateLogin()">Sign In</button><br><br>
+                <div>---OR---</div><br>
+                <a href="#">Forgot Password?</a><br>
+                <div>
+                    <a href="#">Admin Login</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>JALA Academy offers Job Guaranteed Programs for Freshers to 12 years’ experience on Full Stack Development / Automation Testing / Dev-Ops / QA/ SDET/Cyber Security / RPA / Cloud Technologies. <p>
+		<p>Training would be completely on live Project scenarios Read our website JALA Academy for more details : https://jalaacademy.com/</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
